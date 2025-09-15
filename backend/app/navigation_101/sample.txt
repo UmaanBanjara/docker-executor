@@ -1,0 +1,1 @@
+Welcome to navigation_101! Explore this folder using cd, ls, pwd, and tree.

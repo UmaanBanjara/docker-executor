@@ -1,0 +1,15 @@
+Lesson: Basic Navigation
+
+Commands to practice:
+- ls : List files
+- ls -l : List files with details
+- ls -a : List all files including hidden
+- pwd : Print current directory
+- cd folder_name : Move into a folder
+- cd .. : Move to parent folder
+- tree : View folder structure
+- cat sample.txt : Read the sample file
+- head sample.txt : Read first few lines
+- tail sample.txt : Read last few lines
+- grep 'text' sample.txt : Search for text
+
