@@ -1,0 +1,9 @@
+Lesson: System Information
+
+Commands to practice:
+- whoami : Current user
+- uname -a : Kernel and system info
+- cat /proc/uptime : Container uptime in seconds
+- free -h : Memory usage
+- df -h : Disk usage
+- ps aux : View running processes
