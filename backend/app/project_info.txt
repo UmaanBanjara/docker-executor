@@ -1,0 +1,12 @@
+Welcome to the Linux Playground Sandbox!
+
+This project is designed to help first-time Linux users explore basic commands safely.
+Each folder represents a stepping stone to learn Linux:
+- navigation_101: Basic navigation and file exploration
+- file_operation_101: Safe file commands like cp, mv, wc
+- fun_and_games_101: ASCII art, terminal games, and fun commands
+- system_info_101: Learn about users, processes, and system info
+- basic_networking_101: Safe networking commands to explore your system
+
+Use the /execute API endpoint to try commands safely inside this sandbox.
+Have fun exploring Linux!
