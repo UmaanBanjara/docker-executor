@@ -1,0 +1,6 @@
+Lesson: Fun Commands
+
+Commands to try:
+- figlet Hello : ASCII text
+- toilet Welcome : Colorful ASCII text
+- echo "Fun with Linux!" | boxes -d stone : ASCII box art
