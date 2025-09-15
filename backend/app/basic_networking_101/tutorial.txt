@@ -1,0 +1,8 @@
+Lesson: Basic Networking
+
+Commands to practice:
+- hostname : View container hostname
+- cat /etc/hostname : Another way to check hostname
+- hostname -I : Show container IP addresses
+- ifconfig : Show network interfaces (requires net-tools)
+- ip addr : Show network interfaces (requires iproute2)
