@@ -1,0 +1,13 @@
+Lesson: Basic File Operations
+
+Commands to practice:
+- cp sample.txt copy_sample.txt : Copy a file
+- mv copy_sample.txt new_name.txt : Rename or move a file
+- file sample.txt : Check file type
+
+
+ == only below one's works for now ==
+- stat sample.txt : View file info
+- wc -l sample.txt : Count lines
+- wc -w sample.txt : Count words
+

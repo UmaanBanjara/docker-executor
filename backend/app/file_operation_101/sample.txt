@@ -1,0 +1,1 @@
+Welcome to file_operation_101! Learn how to view file info and basic operations safely.
