@@ -11,17 +11,24 @@ RUN apt-get update && apt-get install -y \
     net-tools iproute2 \
     && rm -rf /var/lib/apt/lists/*
 
-
 # Copy requirements and install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Add non-root user for safe sandboxing
-RUN useradd -ms /bin/bash sandboxuser
-USER sandboxuser
-
 # Copy app folder with all tutorials and sample files
 COPY app ./app
+
+# /app readonly for everyone (still root)
+RUN chmod -R a-w /app
+
+# Add non-root user for safe sandboxing
+RUN useradd -ms /bin/bash sandboxuser
+
+# Writable workspace for sandboxuser
+RUN mkdir /workspace && chown sandboxuser:sandboxuser /workspace
+
+# Switch to non-root
+USER sandboxuser
 
 # Expose port for FastAPI
 EXPOSE 8000
