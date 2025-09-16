@@ -1,0 +1,22 @@
+Welcome to your sandboxed Linux environment!
+
+/app is the main folder containing all tutorials and sample files.
+Note: You can only read files here. Writing or modifying anything in /app is not allowed.
+
+/workspace is specially created for you to perform file operations.
+You can create, modify, and delete files here safely.
+Do NOT try to delete /workspace itself — you only have permissions for its contents.
+
+Important Notes:
+
+cd commands may not work as expected, so use ls to explore files.
+
+Because of WORKDIR settings, pwd will always show /app.
+
+This is not a real Linux terminal, so some operations cannot be fully prevented. Type commands carefully by reading the tutorials and sample files first.
+
+If something goes wrong, end the session or exit the website and start again by creating a new session.
+
+The /workspace container is not reset for every session, so you may see files from other learners. Anything harmful or incorrect you find there is your responsibility to delete.
+
+Thank you and happy Linux learning!
