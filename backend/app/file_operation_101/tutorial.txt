@@ -1,13 +1,16 @@
 Lesson: Basic File Operations
 
 Commands to practice:
-- cp sample.txt copy_sample.txt : Copy a file
-- mv copy_sample.txt new_name.txt : Rename or move a file
-- file sample.txt : Check file type
+-cp sample.txt copy_sample.txt – Copy a file
+-mv copy_sample.txt new_name.txt – Rename or move a file
+-file sample.txt – Check file type
+-touch new_file.txt – Creates new file
+-mkdir new_folder – Create a new folder
+-rm -rf directory_or_file – Delete a file or folder recursively
+-stat sample.txt – View file info
+-wc -l sample.txt – Count lines
+-wc -w sample.txt – Count words
 
+TEST ALL OF THESE inside ls /workspace by creating a file -> cat /workspace/hello.txt -> To Insert inside hello.txt ->
 
- == only below one's works for now ==
-- stat sample.txt : View file info
-- wc -l sample.txt : Count lines
-- wc -w sample.txt : Count words
-
+-> echo "hello world" > /workspace/hello.txt
